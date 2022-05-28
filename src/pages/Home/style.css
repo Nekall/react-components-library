@@ -1,0 +1,21 @@
+.home {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.home>h1{
+  padding-top: 50px;
+}
+
+.home>hr{
+  width: 10%;
+  margin: auto;
+  color: #ffffff;
+}
+
+.home>p{
+  padding-top: 10px;
+  font-size: 16px;
+}
