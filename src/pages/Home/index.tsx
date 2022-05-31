@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div className="home">
-      <Navbar altLogo={"Logo github"} logo={github} links={links}/>
+      {/*<Navbar altLogo={"Logo github"} logo={github} links={links}/>*/}
       <h1>Welcome in RCL</h1>
       <hr/>
       <p>
