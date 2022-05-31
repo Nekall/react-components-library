@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-const Hello = () => {
+const Template = () => {
   return (
     <div className="hello">
-      <p>Hello_World!</p>
+      {/*inside cmp*/}
     </div>
   );
 }
 
-export default Hello;
+export default Template;
