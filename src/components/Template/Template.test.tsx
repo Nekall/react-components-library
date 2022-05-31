@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Hello from "./index";
+import Template from "./index";
 
-test('renders home page', () => {
-  render(<Hello />);
+test('renders template', () => {
+  render(<Template />);
   /*
   Test here
   */
