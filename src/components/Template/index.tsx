@@ -1,4 +1,4 @@
-import React from "react";
+// Style
 import "./style.css";
 
 const Template = () => {
