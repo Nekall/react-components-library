@@ -1,0 +1,11 @@
+.view {
+
+}
+
+.home_link{
+  text-decoration: none;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}

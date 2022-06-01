@@ -9,6 +9,10 @@
   padding-top: 50px;
 }
 
+.home>h2{
+  padding: 50px 0 25px 0;
+}
+
 .home>hr{
   width: 10%;
   margin: auto;
@@ -18,4 +22,71 @@
 .home>p{
   padding-top: 10px;
   font-size: 16px;
+}
+
+.view_link{
+  float: right;
+  margin: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.form{
+  margin: auto;
+  width: 30%;
+}
+
+.form>fieldset{
+  border-radius: 8px;
+}
+
+.form>fieldset>legend{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+.form>fieldset>div{
+  margin: 10px;
+  padding-left: 50px;
+  text-align: left;
+  animation: ltor 0.5s backwards running;
+}
+
+.form>fieldset>div>input{
+  cursor: pointer;
+}
+
+.form>fieldset>div>label{
+  padding-left: 5px;
+}
+
+@keyframes ltor {
+  from {
+    opacity: 0;
+    margin-left: -50px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 10px;
+  }
+}
+
+.btn_download{
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.btn_download>a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #282c34;
+  font-weight: bold;
+}
+
+.download_logo{
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
 }
