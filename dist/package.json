@@ -1,0 +1,66 @@
+{
+  "name": "@nekall/rcl",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "clean": "rm -rf dist",
+    "prepare-build": "npm run clean && NODE_ENV=production babel lib --out-dir dist --extensions \".ts,.tsx\" --ignore 'lib/**/*.test.js'",
+    "copy": "cp package.json dist/ && cp README.md dist/",
+    "build": "npm run prepare-build && npm run copy"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.68",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^0.9.3",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "description": "We wanted to have basic components at hand so we decided to make a library of efficient 🚀 , smart 🧠 and customizable 🛠️ components",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekall/react-components-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nekall/react-components-library/issues"
+  },
+  "homepage": "https://github.com/Nekall/react-components-library#readme"
+}
